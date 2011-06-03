@@ -8,12 +8,16 @@ gem 'rails', '3.0.7'
 gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
 
 group :development do
-    gem 'rspec-rails', '2.0.1'
+    gem 'rspec-rails'
+#    gem 'autotest' 
+#    gem 'ZenTest'
+#    gem 'redgreen'
+#    gem 'autotest-rails'
 end
 
 
 group :test do
-    gem 'rspec', '2.0.1'
+    gem 'rspec'
     gem 'webrat', '0.7.1'
 end
 
